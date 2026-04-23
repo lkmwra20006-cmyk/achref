@@ -19,6 +19,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+ 
 
 /* Top Nav Bar Design*/
 header.sticky {
@@ -71,7 +72,7 @@ header ul li a {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: url(https://i.pinimg.com/736x/4b/17/27/4b17277b348d4272df56a67be9044213.jpg) no-repeat;
+  background: url(photo_2026-04-23_11-57-47.jpg) no-repeat;
   background-size: cover;
   background-position: right;
   display: flex;
@@ -159,6 +160,12 @@ img {
   margin: 20px;
   text-align: center;
   transition: 0.5s ease;
+  border-radius: 40px;
+
+}
+.services.content.servicesbox :hover{
+
+  transform: scale(1.2);
 }
 .services .content .servicesbox:hover {
   background: #7d11a8;
@@ -208,6 +215,7 @@ img {
   padding: 60px 40px;
   margin: 20px;
   background: #6513b1;
+  border-radius: 50px;
 }
 .testimonials .content .testimonialbox p {
   font-style: italic;
